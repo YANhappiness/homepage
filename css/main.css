@@ -11,7 +11,6 @@ body {background: #eee;font-family: Helvetica Neue, Helvetica, Arial, sans-serif
     text-align: center;
     font-size: 16px;
     background: #fff;
-
     /* Center slide text vertically */
     display: -webkit-box;
     display: -ms-flexbox;
@@ -26,15 +25,6 @@ body {background: #eee;font-family: Helvetica Neue, Helvetica, Arial, sans-serif
     -webkit-align-items: center;
     align-items: center;
 }
-// body{
-// 	background-color: #e0e0e0;
-// 	font-family: 'Helvetica Neue',
-// 	Helvetica,'Lucida Grande',Arial,
-// 	'Hiragino Sans GB',微软雅黑,'WenQuanYi Micro Hei',
-// 	STHeiti,SimSun,sans-serif;
-// 	list-style: none;
-// 	text-decoration: none;
-// }
 *{list-style: none;}
 nav.navbar.navbar-default.nav-fixed-top{position:fixed;top:0px;margin: 0;z-index: 999;width: 100%;background-color: #42474B;color: #337ab7;border: 0;}
 
@@ -65,16 +55,17 @@ aside:hover{opacity: 1}
 .titles{margin-top: 10%}
 
 /* introduce */
-.introduce .main-info{width:100%;padding：0;margin:0 auto;}
-.introduce .main-info li{padding-top: 10px}
-// .page2 .main-info li{font-size: 18px;margin: 0 auto;text-align: left}
-// .page2 .main-info .fr{width: 110px;display: inline-block;float: left;text-align: right;}
+.main-info{width:100%;margin:0 auto;padding: 0}
+.main-info li{padding-top: 10px;width: 240px;display: inline-block;text-align: left;}
+
+// .main-info li{font-size: 18px;margin: 0 auto;text-align: left}
+.main-info .fr{display:inline-block;width: 100px;text-align: center;}
 
 .edu{border-left:2px solid #00796b;margin-left:15px;display: inline-block;text-align: center;font-size: 18px;padding: 0;}
 .edu tr td {display: block;margin-bottom:4px;text-align: left;}
-.edu>li{position:relative;top:-15px;margin:0 0 10px 10px;}
+.edu>li{position:relative;top:-15px;margin:0 0 14px 14px;}
 .edu ul>li{margin:0 0 12px}
-.circle{height:14px;width:14px;-webkit-border-radius:100%;border-radius:100%;background:#00796b;float:left;position:absolute;left:-18px;top:5px}
+.circle{height:14px;width:14px;-webkit-border-radius:100%;border-radius:100%;background:#00796b;float:left;position:absolute;left:-22px;top:5px}
 
 /*skill */
 .skill {height:auto; width:100%; color:#FFFFFF;}
