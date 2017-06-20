@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Swiper demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="./css/swiper.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+</head>
+<body>
+<!-- aside -->
+<div class="container">
+	<aside>
+		<ul class="list-unstyled">
+  			<li>
+  				<a href="https://github.com/YANhappiness?tab=repositories" target="_blank">源代码</a>
+  			</li>
+  			<li>
+  				<a href="http://my.csdn.net/weixin_37064409?locationNum=0&fps=1" target="_blank">博客</a>
+  			</li>
+  			<li>
+  				<a href="https://github.com/YANhappiness" target="_blank">GitHub</a>
+  			</li>
+		</ul>
+	</aside>
+</div>  <!-- 侧边栏-->
+
+<!-- 导航 置顶-->
+<nav class="navbar navbar-default nav-fixed-top">  
+	<div class="container">
+		<div class="navbar-header">
+			<a href="#Fpage" class="navbar-brand">
+			YANhappiness
+			</a>
+			<!-- 缩小时显示 -->
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+		</div>
+		<!-- collapse 缩小时隐藏 -->
+		<div class="collapse navbar-collapse" id="navbar-collapse">
+			<ul class="nav navbar-nav navbar-right menu">
+				<li class="active">
+				<a href="#introduce"><span class="glyphicon glyphicon-user" hideFocus></span> 个人简介</a></li>
+				<li><a href="#skill"><span class="glyphicon glyphicon-book"></span> 专业技能</a></li>
+				<li><a href="#experience" hideFocus><span class="glyphicon glyphicon-pencil"></span> 项目经验</a></li>
+				<li><a href="#email" hideFocus><span class="glyphicon glyphicon-envelope"></span> 联系邮箱</a></li>
+			</ul>
+		</div>
+	</div>
+</nav> <!-- 顶部导航-->
+
+<!-- Swiper -->
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide page1">
+        	<div class="container Fpage">
+				<p class="tatle">
+					<h2>闫 石</h2>
+					<h3>深自缄默，如云淡薄。</h3>
+				</p>
+			</div>
+        </div> <!-- Fpage end-->
+        <div class="swiper-slide page2">
+        	<div class="container introduce">
+				<div class="title">
+					<h3>
+						<span class="glyphicon 	glyphicon-bookmark"> 个 人 简 介</span>
+					</h3>
+				</div>
+				<ul class="main-info">
+					<li><span class="fr">个人信息:</span>闫石 / 男 / 23岁</li>
+					<li><span class="fr">常用昵称:</span>YANhappiness</li>
+					<li><span class="fr">手机号码:</span>15601597920</li>
+				</ul>
+				<div class="titles">
+					<h3>
+	            		<span class="glyphicon glyphicon-pencil"> 教 育 经 历</span>
+	            	</h3>
+				</div>
+	            <ul class="edu">
+					<li>
+						<div class="circle"></div>
+						<table>
+							<tr>
+								<td>2013.09 - 2016.06</td>
+								<td>南京信息职业技术学院</td>
+								<td>计算机应用专业</td>
+							</tr>
+						</table>
+					</li>
+					<li>
+						<div class="circle"></div>
+						<table>
+							<tr>
+								<td>2015.09 - 2016.07</td>
+								<td>南京航空航天大学</td>
+								<td>计算机网络专业</td>
+							</tr>
+						</table>
+					</li>
+	            </ul>
+			</div>
+        </div><!-- introduce end -->
+        <div class="swiper-slide page3" id="skill">
+			<div class="container skill">
+				<div class="title">
+					<h3>
+						<span class="glyphicon 	glyphicon-bookmark"> 专 业 技 能</span>
+					</h3>
+				</div>
+				<div class="skills">
+					<ul class="skill-lang">
+						<li>语言</li>
+						<li>HTML(5)</li>
+						<li>CSS(3)</li>
+						<li>Javascript</li>
+						<li>NodeJS</li>
+						<li>Python</li>
+						<li>MongoDB</li>
+					</ul>
+					<ul class="skill-idea">
+						<li>思想</li>
+						<li>W3C标准</li>
+						<li>语义化</li>
+						<li>表现与结构分离</li>
+						<li>响应式设计</li>
+						<li>前端MVC</li>
+					</ul>
+					<ul class="skill-frame">
+						<li>框架</li>
+						<li>jQuery</li>
+						<li>Bootstrap</li>
+						<li>Less</li>
+						<li>angularJs</li>
+						<li>JDango</li>
+					</ul>
+					<ul class="skill-tech">
+						<li>技术</li>
+						<li>Git</li>
+						<li>SVN</li>
+						<li>bower</li>
+						<li>Ajax</li>
+					</ul>
+				</div>
+			</div>
+		</div><!-- skill end -->
+        <div class="swiper-slide page4" >
+        	<div class="container experience">
+        		<div class="title">
+					<h3>
+						<span class="glyphicon 	glyphicon-bookmark"> 项 目 经 验</span>
+					</h3>
+				</div>
+				<ul class="edu">
+	                <li>
+	                    <div class="circle"></div>
+	                    <h4>
+	                        仿京东首页
+	                        <a href="https://github.com/YANhappiness/Mobilejd" target="_blank"><i class="icon-link"></i>源代码</a>
+	                        <a href=" https://yanhappiness.github.io/Mobilejd/." target="_blank"><i class="icon-link"></i>Demo</a>
+	                    </h4>
+	                    <p>使用html、css、js实现移动端京东首页基本模块。包括导航栏、轮播图、搜索框等</p>
+	                </li>
+	                <li>
+	                    <div class="circle"></div>
+	                    <h4>
+	                        喵星网项目
+	                        <a href="https://github.com/YANhappiness/hellokitty" target="_blank"><i class="icon-link"></i>源代码</a>
+	                        <a href=" https://yanhappiness.github.io/hellokitty/." target="_blank"><i class="icon-link"></i>Demo</a>
+	                    </h4>
+	                    <p>使用bootstrap组件搭建网站，包括首页、喵宠日记、喵星人乐园、关于我们四个页面</p>
+	                </li>
+	                <li>
+	                    <div class="circle"></div>
+	                    <h4>
+	                        仿豆瓣一刻App
+	                        <a href="https://github.com/YANhappiness/Mobilejd" target="_blank"><i class="icon-link"></i>源代码</a>
+	                    </h4>
+	                    <p>使用angularJs框架和前端MVC思想完成单页面开发，应用了跨域请求技术</p>
+	                </li>
+	                <li>
+	                    <div class="circle"></div>
+	                    <h4>
+	                       	在线留言板项目
+	                        <a href="https://github.com/YANhappiness/Mobilejd" target="_blank"><i class="icon-link"></i>源代码</a>
+	                    </h4>
+	                    <p>使用nodejs第三方模块express和MongoDB数据库完成数据的增删改查操作并展示在页面上</p>
+	                </li>
+				</ul>
+        	</div>
+		</div><!-- experience end -->
+        <div class="swiper-slide page5" >
+			<div class="container email">
+				<ul class="title">
+					<li>
+						<h3 class="title">
+							<a href="mailto:457029997@qq.com">
+								<span class="glyphicon glyphicon-envelope"></span>
+							</a> 快把我收进碗里吧
+						</h3>
+					</li>
+					<li><h3>457029997@qq.com</h3></li>
+				</ul>
+			</div>
+        </div><!-- email end -->
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+</div>
+
+    <!-- Swiper JS -->
+	<script type="text/javascript" src="./js/jquery.min.js"></script>
+	<script type="text/javascript" src="./js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="./js/swiper.jquery.min.js"></script>
+	<script type="text/javascript" src="./js/main.js"></script>
+</body>
+</html>
