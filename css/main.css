@@ -80,7 +80,7 @@ aside:hover{opacity: 1}
 img{width: 100px;height:20px;margin: 0 auto;}
 
 /* experience */
-.title{margin-top: 50px}
+.title{padding：0 0 10px 0}
 .experience p{font-size: 16px;text-align: left;}
 .experience .titles{margin-top: 50px;}
 
