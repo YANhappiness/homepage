@@ -26,4 +26,8 @@ $(document).ready(function () {
 			}
 		})(i);
 	}
+
+	/* 打字效果*/
+
+	$('.Fpage h3').typetype('深自缄默，如云淡薄。',{e: 0.02,t: 300});
 })
