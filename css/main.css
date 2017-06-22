@@ -50,7 +50,7 @@ aside:hover{opacity: 1}
 .page2 { background-color: #FF7F50;}
 .page3 { background-color: #9C58B6;}
 .page4 { background-color: #f90;}
-.page5 { background-color: #996 }
+.page5 { background-color: #996;}
 
 .titles{margin-top: 10%}
 
@@ -72,7 +72,7 @@ aside:hover{opacity: 1}
 .skill .titles {width:460px; margin:40px auto; text-align:center;}
 .skill .skills {height:auto; width:auto;}
 .skill .skills ul{padding:0}
-.skill ul {display:inline-block; height:auto; width:140px; margin:20px 0 0 10px; border:1px solid #FFFFFF; font-size:18px; font-family:"Microsoft YaHei light"; text-align: center; vertical-align: top;}
+.skill ul {display:inline-block; height:auto; width:140px; margin:20px 0 0 10px; border:1px solid #FFFFFF; font-size:18px; text-align: center; vertical-align: top;}
 .skill li {height:24px; line-height:24px;}
 .skill li:first-child {background-color:#FFFFFF; color:#333;}
 .skill li:hover{background-color:#FFFFFF; color:#333; cursor:default;}
@@ -80,12 +80,10 @@ aside:hover{opacity: 1}
 img{width: 100px;height:20px;margin: 0 auto;}
 
 /* experience */
-// .title{padding-top: 40px}
-.glyphicon.glyphicon-bookmark{margin-top: 50px}
-.glyphicon.glyphicon-pencil{margin-bottom: 20px}
+.title{padding:0 0 10px 0;}
 .experience p{font-size: 16px;text-align: left;}
 .experience .titles{margin-top: 50px;}
-.email ul{padding-left: 0}
+
 
 
 

@@ -8,6 +8,9 @@ $(document).ready(function () {
 	$('.menu li').click(function(){
 		$('.menu li').removeClass("active");
 		$(this).addClass("active");
+		$('.navbar-toggle').addClass("collapsed");
+		$('.navbar-toggle').attr("aria-expanded",false)
+
 	})
 
     var swiper = new Swiper('.swiper-container', {
@@ -23,11 +26,17 @@ $(document).ready(function () {
 		(function(i){
 			aa[i].onclick = function(){
 				swiper.slideTo(i, 1000, false);//切换到第一个slide，速度为1秒
+				$(".navbar-header button").addClass("collapsed");
+				$(".navbar-header button").attr("aria-expanded",false);
 			}
 		})(i);
 	}
 
 	/* 打字效果*/
 
-	$('.Fpage h3').typetype('深自缄默，如云淡薄。',{e: 0.02,t: 300});
+	$('.Fpage h3').backspace(10, // 回删的字符数量
+  {
+    t: 200, // 按键的间隔时间
+  })
+	$('.Fpage h3').typetype('深自缄默，如云淡薄。',{e: 0.02,t: 200});
 })
