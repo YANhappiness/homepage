@@ -26,8 +26,7 @@ $(document).ready(function () {
 		(function(i){
 			aa[i].onclick = function(){
 				swiper.slideTo(i, 1000, false);//切换到第一个slide，速度为1秒
-				$(".navbar-header button").addClass("collapsed");
-				$(".navbar-header button").attr("aria-expanded",false);
+				$(".navbar-header button").click();
 			}
 		})(i);
 	}
