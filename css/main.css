@@ -96,11 +96,11 @@ img{width: 100px;height:20px;margin: 0 auto;}
 
 /* 中等屏幕（桌面显示器，大于等于 992px） */
 @media (min-width: 992px) {  
-
+    .experience p{width: 400px}
 	
 }
 
 /* 大屏幕（大桌面显示器，大于等于 1200px） */
 @media (min-width: @screen-lg-min) { 
-	
+
 }
